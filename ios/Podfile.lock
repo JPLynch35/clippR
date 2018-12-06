@@ -1,0 +1,29 @@
+PODS:
+  - React (0.11.0):
+    - React/Core (= 0.11.0)
+  - React/Core (0.11.0)
+  - RNTextDetector (0.0.6):
+    - React
+    - TesseractOCRiOS (~> 4.0.0)
+  - TesseractOCRiOS (4.0.0)
+
+DEPENDENCIES:
+  - RNTextDetector (from `../node_modules/react-native-text-detector/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - React
+    - TesseractOCRiOS
+
+EXTERNAL SOURCES:
+  RNTextDetector:
+    :path: "../node_modules/react-native-text-detector/ios"
+
+SPEC CHECKSUMS:
+  React: ab1a2e21deb34965c38328d5ec40cc7d12c6050a
+  RNTextDetector: 8d5be966fb2bfe907703ef37f6fa742180232804
+  TesseractOCRiOS: 90638afbe43d082433f2e76b384c7901d23956df
+
+PODFILE CHECKSUM: d0bac9cc72436bdd3dda30da8f2d7ffaa6c92dec
+
+COCOAPODS: 1.5.3
