@@ -42,6 +42,7 @@
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		D255B9462624E9EF3D5DF0FF /* libPods-clipR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A7DB9D8A968543E42F7EFAFF /* libPods-clipR.a */; };
 		D8C8FA186755E89EDF8BBEB3 /* libPods-clipRTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1944022DCFEB9AD40E4C7DE /* libPods-clipRTests.a */; };
+		E8F910AE21B9E6320000733F /* libRNTextDetector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F910AD21B9E6320000733F /* libRNTextDetector.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -378,6 +379,7 @@
 		A7DB9D8A968543E42F7EFAFF /* libPods-clipR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-clipR.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		E1944022DCFEB9AD40E4C7DE /* libPods-clipRTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-clipRTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F910AD21B9E6320000733F /* libRNTextDetector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNTextDetector.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -394,6 +396,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8F910AE21B9E6320000733F /* libRNTextDetector.a in Frameworks */,
 				A3E1872121B84E0500B691C1 /* libRCTCameraRoll.a in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				11D1A2F320CAFA9E000508D9 /* libRCTAnimation.a in Frameworks */,
@@ -557,6 +560,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E8F910AD21B9E6320000733F /* libRNTextDetector.a */,
 				A3E1871B21B84DBA00B691C1 /* RCTCameraRoll.xcodeproj */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
 				A7DB9D8A968543E42F7EFAFF /* libPods-clipR.a */,

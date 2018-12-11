@@ -1,29 +1,37 @@
 PODS:
-  - React (0.11.0):
-    - React/Core (= 0.11.0)
-  - React/Core (0.11.0)
+  - React (0.57.7):
+    - React/Core (= 0.57.7)
+  - React/Core (0.57.7):
+    - yoga (= 0.57.7.React)
   - RNTextDetector (0.0.6):
     - React
     - TesseractOCRiOS (~> 4.0.0)
   - TesseractOCRiOS (4.0.0)
+  - yoga (0.57.7.React)
 
 DEPENDENCIES:
+  - React (from `../node_modules/react-native`)
   - RNTextDetector (from `../node_modules/react-native-text-detector/ios`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - React
     - TesseractOCRiOS
 
 EXTERNAL SOURCES:
+  React:
+    :path: "../node_modules/react-native"
   RNTextDetector:
     :path: "../node_modules/react-native-text-detector/ios"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
-  React: ab1a2e21deb34965c38328d5ec40cc7d12c6050a
+  React: 1fe0eb13d90b625d94c3b117c274dcfd2e760e11
   RNTextDetector: 8d5be966fb2bfe907703ef37f6fa742180232804
   TesseractOCRiOS: 90638afbe43d082433f2e76b384c7901d23956df
+  yoga: b1ce48b6cf950b98deae82838f5173ea7cf89e85
 
-PODFILE CHECKSUM: d0bac9cc72436bdd3dda30da8f2d7ffaa6c92dec
+PODFILE CHECKSUM: 4a0e2d9923746aaa61703f40f59724abb721e501
 
 COCOAPODS: 1.5.3
