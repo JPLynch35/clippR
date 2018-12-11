@@ -1,11 +1,12 @@
 import React from "react";
 import { StyleSheet, Image, TouchableOpacity, Dimensions } from "react-native";
+import ImageRecognition from "./../ocr/Tesseract";
 
 const window = Dimensions.get("window");
 
 const Photo = ({ photo }) => (
   <TouchableOpacity style={styles.photoThumbContainer}>
-    <Image style={styles.thumbnail} source={{ uri: photo.node.image.uri }} />
+    <Image style={styles.thumbnail} source={{ uri: photo.node.image.uri }} onPhotoSelect= {ImageRecognition({ photo })} />
   </TouchableOpacity>
 );
 
